@@ -1,5 +1,9 @@
+:root {
+    --primary-back-color: #0c4563;
+}
+
 nav {
-    background-color: #0c4563;
+    background-color: var(--primary-back-color);
     padding: 10px;
 }
 
@@ -10,7 +14,7 @@ nav a {
 }
 
 h1 {
-    color: #0c4563;
+    color: var(--primary-back-color)
 }
 
 main img {
