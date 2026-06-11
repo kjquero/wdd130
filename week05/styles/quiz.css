@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #eaeaea;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input,
+textarea,
+label,
+select,
+button {
+    width: 450px;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #000470;
+    color: white;
+    padding: 1rem;
+    border: solid 2px #000;
+    border-radius: 10px;
+}
