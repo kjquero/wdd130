@@ -335,7 +335,7 @@ nav.socialmedia img {
 
 .submit-button {
     padding: 9px 30px;
-    margin-top: 10px;
+    margin-top: 0;
     background-color: var(--accent1-color);
     color: var(--primary-color);
     border: 2px solid var(--accent1-color);
