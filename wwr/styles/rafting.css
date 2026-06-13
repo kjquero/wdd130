@@ -194,3 +194,197 @@ nav.socialmedia img {
     width: 40px;
     height: auto;
 }
+
+/* -------------------------------------------
+   CONTACT PAGE
+   ------------------------------------------- */
+
+.contact-header {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+}
+
+.contact-header nav {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-page-title {
+    position: static;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 15px;
+    font-size: 2rem;
+    margin-top: 20px;
+    width: 100%;
+    opacity: 1;
+}
+
+/* Company info */
+.contact-info-section {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info-block {
+    text-align: center;
+    padding: 8px 4px 2px;
+}
+
+.contact-info-block p {
+    margin: 0;
+    padding: 2px 0;
+    margin-bottom: 1px;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Map + Form */
+.contact-map-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 16px;
+    padding: 8px;
+}
+
+.contact-map {
+    height: 320px;
+    border: 3px solid var(--accent1-color);
+    overflow: hidden;
+}
+
+/* Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.form-row > label {
+    width: 110px;
+    min-width: 110px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--accent1-color);
+    padding-top: 6px;
+    text-align: right;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+    flex: 1;
+    padding: 6px 10px;
+    border: 2px solid var(--accent1-color);
+    font-family: var(--body-font);
+    font-size: 13px;
+    color: #333;
+    border-radius: 3px;
+}
+
+.form-row textarea {
+    height: 90px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 4px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: normal;
+    color: var(--accent1-color);
+    width: auto;
+    text-align: left;
+    padding-top: 0;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 120px;
+    font-size: 13px;
+    color: var(--accent1-color);
+}
+
+.submit-row {
+    padding-left: 120px;
+}
+
+.submit-button {
+    padding: 9px 30px;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    border: 2px solid var(--accent1-color);
+    font-family: var(--heading-font);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.submit-button:hover {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+/* Employee section */
+.team-section {
+    margin: 0;
+    padding: 0;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 8px;
+}
+
+.employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+}
+
+.employee img {
+    width: 160px;
+    height: 130px;
+    object-fit: cover;
+    border: 3px solid var(--accent1-color);
+}
+
+.employee-name {
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--accent1-color);
+    margin: 0;
+    padding: 0;
+}
+
+.employee-role {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
