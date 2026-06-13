@@ -291,6 +291,7 @@ nav.socialmedia img {
     font-size: 13px;
     color: #333;
     border-radius: 3px;
+    margin: 3px;
 }
 
 .form-row textarea {
@@ -302,6 +303,7 @@ nav.socialmedia img {
     flex-direction: column;
     gap: 5px;
     padding-top: 4px;
+    margin: 2px;
 }
 
 .radio-group label {
@@ -314,10 +316,12 @@ nav.socialmedia img {
     width: auto;
     text-align: left;
     padding-top: 0;
+    margin: 2px;
 }
 
 .checkbox-row {
     display: flex;
+    margin: 10px;
     align-items: center;
     gap: 8px;
     padding-left: 120px;
@@ -331,6 +335,7 @@ nav.socialmedia img {
 
 .submit-button {
     padding: 9px 30px;
+    margin-top: 10px;
     background-color: var(--accent1-color);
     color: var(--primary-color);
     border: 2px solid var(--accent1-color);
